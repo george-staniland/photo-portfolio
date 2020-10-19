@@ -1,11 +1,10 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Layout from '../components/Layout';
 
-export default function HomePage() {
+export default function SelectedWorks() {
   return (
-    <div>
-      <Nav />
-      <p> Hey I'm the start of GeorgeStaniland . net</p>
-    </div>
+    <Layout>
+      <p> Hey I'm index / selected works page</p>
+    </Layout>
   );
 }

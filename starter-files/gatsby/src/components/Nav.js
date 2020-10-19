@@ -14,6 +14,9 @@ export default function Nav() {
         <li>
           <Link to="/commissioned">Commissioned</Link>
         </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
       </ul>
     </nav>
   );
