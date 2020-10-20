@@ -5,7 +5,13 @@ import styled from 'styled-components';
 const NavStyles = styled.nav`
   margin-top: 4rem;
 
-  ul {
+  h1 {
+    font-size: 19px;
+    margin-bottom: 0.8rem;
+  }
+
+  ul,
+  nav {
     margin: 0;
     padding: 0;
     display: grid;
@@ -32,7 +38,12 @@ export default function Nav() {
   return (
     <>
       <NavStyles>
-        <h1>George Staniland</h1>
+        <nav>
+          <h1>George Staniland</h1>
+          <div />
+          <div />
+          <div />
+        </nav>
         <ul>
           <li>
             <Link to="/">Selected Works</Link>
