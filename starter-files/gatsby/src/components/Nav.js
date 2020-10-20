@@ -7,6 +7,7 @@ const NavStyles = styled.nav`
 
   h1 {
     font-size: 19px;
+    font-family: 'Merriweather';
     margin-bottom: 0.8rem;
   }
 
@@ -27,6 +28,7 @@ const NavStyles = styled.nav`
     text-decoration: none;
     color: #537db9;
     font-weight: 500;
+    font-size: 2.5rem;
     letter-spacing: 1.1px;
     &:hover {
       color: grey;
